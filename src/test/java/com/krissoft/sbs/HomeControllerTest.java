@@ -12,6 +12,6 @@ public class HomeControllerTest {
 	public void testHomePage() {
 		HomeController controller = new HomeController();
 		Locale locale = Locale.UK;
-		assertEquals("home", controller.home(locale));
+		assertEquals("home", controller.about(locale));
 	}
 }

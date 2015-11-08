@@ -36,8 +36,8 @@ public class HomeController {
 		return "home";
 	}
 	
-	@RequestMapping(value = "/", method = RequestMethod.GET)
-	public String home(Locale locale ) {
+	@RequestMapping(value = "/test", method = RequestMethod.GET)
+	public String about(Locale locale ) {
 		logger.info("Welcome home! The client locale is {}.", locale);
 		
 		Date date = new Date();
