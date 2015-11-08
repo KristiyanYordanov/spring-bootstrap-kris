@@ -103,22 +103,9 @@ public final class basic_002dtheme_jsp extends org.apache.jasper.runtime.HttpJsp
       out.write("                </div>\n");
       out.write("\n");
       out.write("                <div class=\"col-md-10\">\n");
-      out.write("                    <div class=\"jumbotron\">\n");
-      out.write("                      ");
-      if (_jspx_meth_c_import_2(_jspx_page_context))
-        return;
-      out.write("\n");
-      out.write("                    </div>\n");
       out.write("\n");
       out.write("                    <div class=\"row\">\n");
       out.write("                      <div class=\"col-md-12\">\n");
-      out.write("                          <div class=\"container\">\n");
-      out.write("                            <iframe class=\"github-btn\" src=\"http://ghbtns.com/github-btn.html?user=priyatam&repo=springmvc-twitterbootstrap-showcase&type=watch&count=true\" allowtransparency=\"true\" frameborder=\"0\" scrolling=\"0\" width=\"100px\" height=\"20px\"></iframe>\n");
-      out.write("\n");
-      out.write("                            <a href=\"https://twitter.com/share\" class=\"twitter-share-button\" data-url=\"http://springmvc-twitterbootstrap-showcase.cloudfoundry.com\" data-text=\"Spring MVC Twitter Bootstrap Showcase!\">Tweet</a>\n");
-      out.write("                            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=\"//platform.twitter.com/widgets.js\";fjs.parentNode.insertBefore(js,fjs);}}(document,\"script\",\"twitter-wjs\");</script>\n");
-      out.write("                          </div>\n");
-      out.write("\n");
       out.write("                        <hr class=\"soften\">\n");
       out.write("\n");
       out.write("                        ");
@@ -136,12 +123,12 @@ public final class basic_002dtheme_jsp extends org.apache.jasper.runtime.HttpJsp
       out.write("    </div>\n");
       out.write("\n");
       out.write("    ");
-      if (_jspx_meth_c_import_3(_jspx_page_context))
+      if (_jspx_meth_c_import_2(_jspx_page_context))
         return;
       out.write("\n");
       out.write("\n");
       out.write("\t<script type=\"text/javascript\" src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js\"></script>\n");
-      out.write("\t<script type=\"text/javascript\" src=\"http://netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js\"></script>\n");
+      out.write("\t<script type=\"text/javascript\" src=\"http://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js\"></script>\n");
       out.write("    <script type=\"text/javascript\" src=\"");
       if (_jspx_meth_c_url_1(_jspx_page_context))
         return;
@@ -239,32 +226,6 @@ public final class basic_002dtheme_jsp extends org.apache.jasper.runtime.HttpJsp
     return false;
   }
 
-  private boolean _jspx_meth_c_import_2(PageContext _jspx_page_context)
-          throws Throwable {
-    PageContext pageContext = _jspx_page_context;
-    JspWriter out = _jspx_page_context.getOut();
-    //  c:import
-    org.apache.taglibs.standard.tag.rt.core.ImportTag _jspx_th_c_import_2 = (org.apache.taglibs.standard.tag.rt.core.ImportTag) _jspx_tagPool_c_import_url_nobody.get(org.apache.taglibs.standard.tag.rt.core.ImportTag.class);
-    _jspx_th_c_import_2.setPageContext(_jspx_page_context);
-    _jspx_th_c_import_2.setParent(null);
-    _jspx_th_c_import_2.setUrl("/WEB-INF/views/tags/banner.jsp");
-    int[] _jspx_push_body_count_c_import_2 = new int[] { 0 };
-    try {
-      int _jspx_eval_c_import_2 = _jspx_th_c_import_2.doStartTag();
-      if (_jspx_th_c_import_2.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
-        return true;
-      }
-    } catch (Throwable _jspx_exception) {
-      while (_jspx_push_body_count_c_import_2[0]-- > 0)
-        out = _jspx_page_context.popBody();
-      _jspx_th_c_import_2.doCatch(_jspx_exception);
-    } finally {
-      _jspx_th_c_import_2.doFinally();
-      _jspx_tagPool_c_import_url_nobody.reuse(_jspx_th_c_import_2);
-    }
-    return false;
-  }
-
   private boolean _jspx_meth_decorator_body_0(PageContext _jspx_page_context)
           throws Throwable {
     PageContext pageContext = _jspx_page_context;
@@ -282,28 +243,28 @@ public final class basic_002dtheme_jsp extends org.apache.jasper.runtime.HttpJsp
     return false;
   }
 
-  private boolean _jspx_meth_c_import_3(PageContext _jspx_page_context)
+  private boolean _jspx_meth_c_import_2(PageContext _jspx_page_context)
           throws Throwable {
     PageContext pageContext = _jspx_page_context;
     JspWriter out = _jspx_page_context.getOut();
     //  c:import
-    org.apache.taglibs.standard.tag.rt.core.ImportTag _jspx_th_c_import_3 = (org.apache.taglibs.standard.tag.rt.core.ImportTag) _jspx_tagPool_c_import_url_nobody.get(org.apache.taglibs.standard.tag.rt.core.ImportTag.class);
-    _jspx_th_c_import_3.setPageContext(_jspx_page_context);
-    _jspx_th_c_import_3.setParent(null);
-    _jspx_th_c_import_3.setUrl("/WEB-INF/views/tags/footer.jsp");
-    int[] _jspx_push_body_count_c_import_3 = new int[] { 0 };
+    org.apache.taglibs.standard.tag.rt.core.ImportTag _jspx_th_c_import_2 = (org.apache.taglibs.standard.tag.rt.core.ImportTag) _jspx_tagPool_c_import_url_nobody.get(org.apache.taglibs.standard.tag.rt.core.ImportTag.class);
+    _jspx_th_c_import_2.setPageContext(_jspx_page_context);
+    _jspx_th_c_import_2.setParent(null);
+    _jspx_th_c_import_2.setUrl("/WEB-INF/views/tags/footer.jsp");
+    int[] _jspx_push_body_count_c_import_2 = new int[] { 0 };
     try {
-      int _jspx_eval_c_import_3 = _jspx_th_c_import_3.doStartTag();
-      if (_jspx_th_c_import_3.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      int _jspx_eval_c_import_2 = _jspx_th_c_import_2.doStartTag();
+      if (_jspx_th_c_import_2.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
         return true;
       }
     } catch (Throwable _jspx_exception) {
-      while (_jspx_push_body_count_c_import_3[0]-- > 0)
+      while (_jspx_push_body_count_c_import_2[0]-- > 0)
         out = _jspx_page_context.popBody();
-      _jspx_th_c_import_3.doCatch(_jspx_exception);
+      _jspx_th_c_import_2.doCatch(_jspx_exception);
     } finally {
-      _jspx_th_c_import_3.doFinally();
-      _jspx_tagPool_c_import_url_nobody.reuse(_jspx_th_c_import_3);
+      _jspx_th_c_import_2.doFinally();
+      _jspx_tagPool_c_import_url_nobody.reuse(_jspx_th_c_import_2);
     }
     return false;
   }

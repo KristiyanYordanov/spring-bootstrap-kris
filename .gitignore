@@ -45,3 +45,4 @@ Temporary Items
 .project
 .settings/
 target/
+target/classes/builddef.lst

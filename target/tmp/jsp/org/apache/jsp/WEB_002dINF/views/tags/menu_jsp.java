@@ -11,20 +11,10 @@ public final class menu_jsp extends org.apache.jasper.runtime.HttpJspBase
 
   private static java.util.List<String> _jspx_dependants;
 
-  private org.apache.jasper.runtime.TagHandlerPool _jspx_tagPool_c_url_value_nobody;
-
   private org.glassfish.jsp.api.ResourceInjector _jspx_resourceInjector;
 
   public java.util.List<String> getDependants() {
     return _jspx_dependants;
-  }
-
-  public void _jspInit() {
-    _jspx_tagPool_c_url_value_nobody = org.apache.jasper.runtime.TagHandlerPool.getTagHandlerPool(getServletConfig());
-  }
-
-  public void _jspDestroy() {
-    _jspx_tagPool_c_url_value_nobody.release();
   }
 
   public void _jspService(HttpServletRequest request, HttpServletResponse response)
@@ -53,19 +43,38 @@ public final class menu_jsp extends org.apache.jasper.runtime.HttpJspBase
 
       out.write("\r\n");
       out.write("<ul class=\"nav nav-list\">\r\n");
-      out.write("  <li class=\"nav-header\">FAQ</li>\r\n");
-      out.write("  <li><a href=\"");
-      if (_jspx_meth_c_url_0(_jspx_page_context))
-        return;
-      out.write("\"> Why another fork?</a></li>\r\n");
-      out.write(" \r\n");
-      out.write("  <li class=\"nav-header\">Reference</li>\r\n");
-      out.write("  <li><a href=\"https://github.com/SpringSource/spring-mvc-showcase/blob/master/MasteringSpringMVC3.pdf\" target=\"_blank\">Mastering Spring MVC</a></li>\r\n");
-      out.write("  <li><a href=\"http://getbootstrap.com/getting-started/\" target=\"_blank\">Mastering Bootstrap</a></li>\r\n");
-      out.write("  <li><a href=\"http://static.springsource.org/spring/docs/3.2.x/spring-framework-reference/html/spring-web.html\" target=\"_blank\">Reference Guide</a></li>\r\n");
-      out.write("  <li><a href=\"https://src.springframework.org/svn/spring-samples/\" target=\"_blank\">Spring Samples</a></li>   \r\n");
-      out.write("  <li><a href=\"http://wrapbootstrap.com/\" target=\"_blank\">Bootstrap Themes</a></li>\r\n");
-      out.write("</ul>");
+      out.write("\t<li><a\r\n");
+      out.write("\t\thref=\"https://github.com/SpringSource/spring-mvc-showcase/blob/master/MasteringSpringMVC3.pdf\"\r\n");
+      out.write("\t\ttarget=\"_blank\">New Test Suite</a></li>\r\n");
+      out.write("\t<li><a href=\"http://getbootstrap.com/getting-started/\"\r\n");
+      out.write("\t\ttarget=\"_blank\">People</a></li>\r\n");
+      out.write("\t<li><a\r\n");
+      out.write("\t\thref=\"http://static.springsource.org/spring/docs/3.2.x/spring-framework-reference/html/spring-web.html\"\r\n");
+      out.write("\t\ttarget=\"_blank\">History</a></li>\r\n");
+      out.write("\t<li><a href=\"https://src.springframework.org/svn/spring-samples/\"\r\n");
+      out.write("\t\ttarget=\"_blank\">Settings</a></li>\r\n");
+      out.write("\t<li><a href=\"http://wrapbootstrap.com/\" target=\"_blank\">Executor\r\n");
+      out.write("\t\t\tstatus</a></li>\r\n");
+      out.write("\r\n");
+      out.write("</ul>\r\n");
+      out.write("\r\n");
+      out.write("<ul class=\"nav nav-list\">\r\n");
+      out.write("\t<li>Suite 1</li>\r\n");
+      out.write("\t<li><div class=\"progress\">\r\n");
+      out.write("\t\t\t<div class=\"progress-bar\" role=\"progressbar\" aria-valuenow=\"70\"\r\n");
+      out.write("\t\t\t\taria-valuemin=\"0\" aria-valuemax=\"100\" style=\"width: 70%\">\r\n");
+      out.write("\t\t\t\t<span class=\"sr-only\">70% Complete</span>\r\n");
+      out.write("\t\t\t</div>\r\n");
+      out.write("\t\t</div></li>\r\n");
+      out.write("\r\n");
+      out.write("\t<li>Suite 2</li>\r\n");
+      out.write("\t<li><div class=\"progress\">\r\n");
+      out.write("\t\t\t<div class=\"progress-bar\" role=\"progressbar\" aria-valuenow=\"20\"\r\n");
+      out.write("\t\t\t\taria-valuemin=\"0\" aria-valuemax=\"100\" style=\"width: 70%\">\r\n");
+      out.write("\t\t\t\t<span class=\"sr-only\">70% Complete</span>\r\n");
+      out.write("\t\t\t</div>\r\n");
+      out.write("\t\t</div></li>\r\n");
+      out.write("</ul>\r\n");
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){
         out = _jspx_out;
@@ -77,23 +86,5 @@ public final class menu_jsp extends org.apache.jasper.runtime.HttpJspBase
     } finally {
       _jspxFactory.releasePageContext(_jspx_page_context);
     }
-  }
-
-  private boolean _jspx_meth_c_url_0(PageContext _jspx_page_context)
-          throws Throwable {
-    PageContext pageContext = _jspx_page_context;
-    JspWriter out = _jspx_page_context.getOut();
-    //  c:url
-    org.apache.taglibs.standard.tag.rt.core.UrlTag _jspx_th_c_url_0 = (org.apache.taglibs.standard.tag.rt.core.UrlTag) _jspx_tagPool_c_url_value_nobody.get(org.apache.taglibs.standard.tag.rt.core.UrlTag.class);
-    _jspx_th_c_url_0.setPageContext(_jspx_page_context);
-    _jspx_th_c_url_0.setParent(null);
-    _jspx_th_c_url_0.setValue("/faq");
-    int _jspx_eval_c_url_0 = _jspx_th_c_url_0.doStartTag();
-    if (_jspx_th_c_url_0.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
-      _jspx_tagPool_c_url_value_nobody.reuse(_jspx_th_c_url_0);
-      return true;
-    }
-    _jspx_tagPool_c_url_value_nobody.reuse(_jspx_th_c_url_0);
-    return false;
   }
 }

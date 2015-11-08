@@ -41,20 +41,32 @@ public final class home_jsp extends org.apache.jasper.runtime.HttpJspBase
 
       out.write("\n");
       out.write("\n");
-      out.write("<html>\n");
-      out.write("<head>\n");
-      out.write("\t<title>Home</title>\n");
-      out.write("</head>\n");
-      out.write("<body>\n");
-      out.write("<h1>\n");
-      out.write("\tHello world!  \n");
-      out.write("</h1>\n");
-      out.write("\n");
-      out.write("<P>  The time on the server is ");
-      out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${serverTime}", java.lang.String.class, (PageContext)_jspx_page_context, null));
-      out.write(". </P>\n");
-      out.write("</body>\n");
-      out.write("</html>\n");
+      out.write("<h2>Test Suites</h2>\n");
+      out.write("<p>The .table-responsive class creates a responsive table which will\n");
+      out.write("\tscroll horizontally on small devices (under 768px). When viewing on\n");
+      out.write("\tanything larger than 768px wide, there is no difference:</p>\n");
+      out.write("<div class=\"table-responsive\">\n");
+      out.write("\t<table class=\"table\">\n");
+      out.write("\t\t<thead>\n");
+      out.write("\t\t\t<tr>\n");
+      out.write("\t\t\t\t<th>#</th>\n");
+      out.write("\t\t\t\t<th>Status</th>\n");
+      out.write("\t\t\t\t<th>Test Suite Name</th>\n");
+      out.write("\t\t\t\t<th>Last Success</th>\n");
+      out.write("\t\t\t\t<th>lastDuration</th>\n");
+      out.write("\t\t\t\t<th>Short Description</th>\n");
+      out.write("\t\t\t</tr>\n");
+      out.write("\t\t</thead>\n");
+      out.write("\t\t<tbody>\n");
+      out.write("\t\t\t<tr>\n");
+      out.write("\t\t\t\t<td>1</td>\n");
+      out.write("\t\t\t\t<td>Anna</td>\n");
+      out.write("\t\t\t\t<td>Pitt</td>\n");
+      out.write("\t\t\t\t<td>35</td>\n");
+      out.write("\t\t\t\t<td>New York</td>\n");
+      out.write("\t\t\t</tr>\n");
+      out.write("\t\t</tbody>\n");
+      out.write("\t</table>");
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){
         out = _jspx_out;
