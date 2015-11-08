@@ -6,11 +6,11 @@ import java.util.Locale;
 
 import org.junit.Test;
 
-public class HomeControllerTest {
+public class DashBoardControllerTest {
 
 	@Test
 	public void testHomePage() {
-		HomeController controller = new HomeController();
+		DashBoardController controller = new DashBoardController();
 		Locale locale = Locale.UK;
 		assertEquals("home", controller.about(locale));
 	}
