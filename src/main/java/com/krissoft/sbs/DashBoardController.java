@@ -64,4 +64,16 @@ public class DashBoardController {
 		return "home";
 	}
 	
+	@RequestMapping(value = "/edit-unit", method = RequestMethod.GET)
+	public String editUnit(Locale locale ) {
+		logger.info("Welcome home! The client locale is {}.", locale);
+		
+		Date date = new Date();
+		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
+		
+		String formattedDate = dateFormat.format(date);
+		
+		return "edit-unit";
+	}
+	
 }
